@@ -6,9 +6,9 @@
     <title>llform</title>
 </head>
 <body>
-    <header><h2>Learner License Registration Form</h2></header>
+    <header ><h2>Learner License Registration Form</h2></header>
     <main>
-        <form>
+        <form method="post">
         <div>
             <label for="name"> Name:</label>
             <input type="text"  class="name" id="name" placeholder="enter ur name">
@@ -36,19 +36,21 @@
         <br>
         <div>
         Gender:
-        
-        <label for="m">Male</label>
         <input type="radio" name="n" id="m">
-        <label for="f">Female</label>
+        <label for="m">Male</label>
         <input type="radio" name="n" id="f">
+        <label for="f">Female</label>
+
+        
     </div>
     <br>
     <div>
         Type of vehicle:
-        <label for="vehicle">2 Wheeler</label>
         <input type="checkbox" name="n" id="vehicle">
-        <label for="v">4 wheeler</label>
+        <label for="vehicle">2 Wheeler</label>
         <input type="checkbox" name="v" id="v">
+        <label for="v">4 wheeler</label>
+        
     </div>
     <div>
         <select name="ve" id="ve">
