@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>llform</title>
+</head>
+<body>
+    <header><h2>Learner License Registration Form</h2></header>
+    <main>
+        <form>
+        <div>
+            <label for="name"> Name:</label>
+            <input type="text"  class="name" id="name" placeholder="enter ur name">
+
+            <label for="mname"></label>
+            <input type="text" class="name" id="mname" placeholder="Enter ur middle name">
+            <label for ="lname"></label>
+            <input type="text" name="name" id="lname" placeholder="enter ur last name">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Age grater than 18" >
+        </div>
+        <br>
+        <div>
+            <label for="dob">Dob:</label>
+            <input type="date" name="birth" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="mail" id="email" placeholder="abc@gmail.com">
+        </div>
+        <br>
+        <div>
+        Gender:
+        
+        <label for="m">Male</label>
+        <input type="radio" name="n" id="m">
+        <label for="f">Female</label>
+        <input type="radio" name="n" id="f">
+    </div>
+    <br>
+    <div>
+        Type of vehicle:
+        <label for="vehicle">2 Wheeler</label>
+        <input type="checkbox" name="n" id="vehicle">
+        <label for="v">4 wheeler</label>
+        <input type="checkbox" name="v" id="v">
+    </div>
+    <div>
+        <select name="ve" id="ve">
+            <option></option>
+            <optgroup label="Gear 2 wheeler ">
+                <option>Bajaj platina</option>
+                <option>Bajaj pulshar</option>
+                <option>Hero splendor</option>
+                <option>Honda shine</option>
+            </optgroup>
+            <optgroup label="Non-gear 2 wheeler">
+                <option>Honda Activa</option>
+                <option>tvs jupiter</option>
+                <option > suzukiacess125</option>
+            </optgroup>
+            
+            </optgroup>
+        </select>
+        <label for="ve"> 2 wheeler Vehicle list</label>   
+    </div>
+    <div>
+        <select name="vt" id="veh">
+            <option></option>
+            <optgroup label="4 wheeler">
+                <option value="">kia seltos</option>
+                <option value=""> suzuki dizire</option>
+                <option value=""> suzuki wagnor</option>
+                <option value="">tata nexon</option>
+        </select>
+        <label for="veh">4 wheeler vehicle list</label>
+    </div>
+    <br>
+    <button>submit</button>
+    </main>
+    <hr>
+    <footer>Fill all the details correctly.</footer>
+</form>
+</body>
+</html>
